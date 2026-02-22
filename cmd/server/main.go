@@ -1,10 +1,11 @@
 package main
 
-import "fmt"
+import "github.com/evilc3/myapp/internal/service"
 
 func main() {
 
-	var x int = 1;
+	service.HelloHelper(1)
+	service.HelloHelper(2)
+	service.HelloHelper(3)
 
-	fmt.Println("Hello World : ", x)
 }
